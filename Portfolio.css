@@ -1,0 +1,84 @@
+*   {
+    
+    
+margin:0;
+padding: 0;  
+font-family: 'Times New Roman', Times, serif; 
+   }
+
+   
+
+   .banner { 
+    width: 100%;
+    height: 89vh;
+    
+    background:white;
+    background-position: center;
+
+    } 
+    
+
+
+
+
+    .background
+    
+    { 
+    width: 120px;
+    cursor: pointer; 
+
+   } 
+
+.content { 
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    
+}
+.content span { 
+   
+    font-size: 90px;
+    margin-top: 65px;
+    line-height:25px;
+
+}  .content span { 
+   
+    color:black;
+    
+} 
+
+.content ul{ 
+    
+list-style: none;
+ width: 100%;
+ font-size: 20px;
+ font-style:italic;
+ margin: 0px; 
+ position: fixed;
+}
+
+.content ul {
+ color:rgba(235, 195, 173, 0.797)
+ 
+ 
+ 
+} 
+h1 {  font: size 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+img{
+
+    border-radius: 64px;
+    margin: 0px;
+   filter:brightness(75%)
+   
+}ion-icon {
+    font-size: 25px;
+    color:black;
+  }
+
+
+
