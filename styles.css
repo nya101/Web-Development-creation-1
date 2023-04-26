@@ -1,0 +1,321 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+
+}.header {
+min-height:100vh;
+width: 100%;
+background-color: (rgb(10, 87, 24), rgba(4,9,30,0.7)),url(images/nice_backyard_4.jpg);
+background-position: center;
+background-size: cover; 
+position: relative;
+
+} nav{
+
+    display: flex; 
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+
+
+width: 150px; 
+
+
+
+}.nav-links{
+
+flex: 1; 
+text-align: right;
+
+
+}.nav-links ul li {
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+
+
+
+}.nav-links ul li a{ 
+
+color:rgb(0, 6, 6);
+text-decoration: none;
+font-size: 13px;
+
+} .nav-links ul li::after {
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}.nav-links ul li:hover::after{
+
+width: 100%;
+
+
+}.text-box h1{
+
+font-size: 62px;
+
+}
+.text-box {
+    width: 90%;
+    color:rgb(7, 85, 29);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+
+}.hero-btn{
+
+    display: inline-block;
+    text-decoration: none;
+    color:#1ca551;
+    border: 1px solid #096a23;
+    padding: 12px 34px;
+    font-size: 13px; 
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+
+}.hero-btn:hover {
+border: 1px solid #cec6c5;
+background: #b0a7a7;
+transition: 1s;
+
+} 
+
+nav .fa-xmark{
+    display: none;
+} nav .fa-solid{
+    display: none;
+}
+
+@media only screen and (max-width: 700px){
+
+    .text-box h1{
+    font-size: 20px;
+    
+
+}
+.nav-links ul li{
+
+
+display: block;
+
+
+}
+.nav-links{
+    position:absolute;
+    background:#b0a400;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+}
+} /*---------about----------*/
+.about {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+
+} h1 {
+
+    font-size: 32px;
+    font-weight: 600px;
+
+} p{
+    color:#03200e;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    
+
+
+}.row {
+
+    margin-top: 5%;
+    justify-content: space-between;
+
+}.about-col{
+
+    flex-basis: 31%;
+    background: #d6dad7;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+} h3{
+
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+
+}.about-col:hover{
+    box-shadow: 0 0 20px 0px rgba(170, 192, 187, 0.2);
+
+}
+
+/*---------contact---------*/
+
+
+
+.contact {
+
+    width: 80%;
+    margin:auto; 
+    text-align: center;
+    padding-top: 50px;
+
+
+}  /*----contact-----*/
+
+.contact{
+
+
+
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+} 
+.about {
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+
+} h1 {
+
+    font-size: 32px;
+    font-weight: 600px;
+
+} p{
+    color:#0d0f0e;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    
+
+ /*----Testimonails-----*/
+
+ 
+
+}.testimonials{
+
+    margin-top: 31%;
+   width: 80%;
+   margin:auto;
+   padding: 100px;
+   text-align: center;
+
+} ion-icon{
+
+color: rgb(218, 131, 26);
+
+} @media(max-width: 700px){
+    .testimonials-col img{
+        margin-left: 5px;
+        margin-right: 30px;
+
+    }
+
+
+
+} /*------Services------*/ 
+
+
+
+
+.services {
+
+
+    margin-top: 31%;
+    width: 80%;
+    margin:auto;
+    padding: 100px;
+    text-align: center;
+ 
+
+}.button onClick {
+ display:flex;
+ margin: auto;
+ border-radius: 40px;
+
+
+
+} .Estimate {
+
+
+    margin-top: 31%;
+    width: 80%;
+    margin:auto;
+    padding: 100px;
+    text-align: center;
+
+
+
+}.footer h1,h2,h3 {
+
+font-size: 14px;
+margin: 0;
+padding: 19px;
+
+
+  
+} .footer p {
+
+
+    color:#03200e;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+
+}
+
+
+    .gallery img {
+        max-width: 300px;
+        max-height: 520px;
+      }
+      .horizontal-move {
+        animation-name: move-horizontal;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      
+      @keyframes move-horizontal {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(100%);
+        } } .Estimate  button{
+
+width:auto;
+
+
+        } .Estimate button {
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color:#b0a400;
+            color: #000;
+        
+        }
+        
+          

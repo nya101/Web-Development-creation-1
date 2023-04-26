@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .content h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 19px;
+    text-align:left;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .content img {
+    order: 2;
+    max-height: 250px;
+    margin-right: 20px;
+  margin-bottom: 10px;
+
+  }
+  
+  .text {
+    order: 1;
+    padding: 20px;
+    width: 80%;
+    height: 200px;
+    box-sizing: border-box;
+  }
+  
+  .contact h1 {
+    color: rgb(13, 104, 17);
+  }
+  
+  .contact p {
+    margin-bottom: 20px;
+  }
+  
+  .contact h3 {
+    color: rgb(7, 94, 57);
+  }
+  
+  .contact p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+
+  
+  
+
+
